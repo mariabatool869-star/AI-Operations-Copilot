@@ -1,0 +1,7 @@
+# Lean dependencies for Streamlit Community Cloud (public demo).
+# No anthropic/boto3 — DEMO_MODE never calls Bedrock.
+streamlit>=1.32.0
+pandas
+numpy
+scikit-learn
+joblib

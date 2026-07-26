@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+joblib
+anthropic[bedrock]
+boto3
+fastapi
+uvicorn
+streamlit
+
+# Optional - enables real semantic search (used automatically if installed).
+# Without it, the project falls back to TF-IDF search.
+# sentence-transformers
