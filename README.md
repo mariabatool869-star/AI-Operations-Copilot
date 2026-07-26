@@ -4,6 +4,19 @@
 
 > Portfolio project targeting AI Engineering roles in Oil & Gas, Energy, and Heavy Industry.
 
+**For the quickest look:** try the [live demo](https://ai-operations-copilot-egajxzkncjmlwohzgyqzyf.streamlit.app/) (no install).
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-operations-copilot-egajxzkncjmlwohzgyqzyf.streamlit.app/)
+
+| Want to… | Use |
+|----------|-----|
+| Try online (no AWS cost) | [Live demo](https://ai-operations-copilot-egajxzkncjmlwohzgyqzyf.streamlit.app/) or `requirements-demo.txt` + `streamlit_app.py` |
+| Run full local stack (React + Bedrock) | `requirements.txt` + API + `frontend/` |
+
+> Streamlit Cloud free tier may take ~30 seconds to wake after inactivity.
+
+![AI Operations Copilot demo preview](docs/demo-preview.svg)
+
 ---
 
 ## Overview
@@ -129,6 +142,8 @@ pip install sentence-transformers
 ## Ways to run
 
 ### 1. Public Streamlit demo (recommended for sharing)
+
+**Online:** [ai-operations-copilot (Streamlit)](https://ai-operations-copilot-egajxzkncjmlwohzgyqzyf.streamlit.app/)
 
 Safe for GitHub + [Streamlit Community Cloud](https://share.streamlit.io). **No AWS keys. No Bedrock cost.**
 
@@ -268,4 +283,6 @@ Without credentials, the app runs in **fallback** mode.
 
 ## License
 
-This project is a portfolio demonstration. All outputs are **assistive only** — maintenance and safety decisions must be confirmed by qualified engineers.
+MIT License — see [LICENSE](LICENSE).
+
+**Disclaimer:** Outputs are **assistive only**. Maintenance and safety decisions must be confirmed by a qualified engineer.
