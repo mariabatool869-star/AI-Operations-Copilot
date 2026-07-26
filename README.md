@@ -1,3 +1,9 @@
+# Portfolio project targeting AI Engineering roles in Oil & Gas, Energy, and Heavy Industry.
+
+**Live demo:** [AI Operations Copilot (Streamlit)](https://ai-operations-copilot-egajxzkncjmlwohzgyqzyf.streamlit.app/)
+
+> Public demo runs in **fallback mode** (no AWS / Bedrock cost). For real Claude tool-calling, run locally with Bedrock — see [SETUP_AWS_BEDROCK.md](SETUP_AWS_BEDROCK.md).
+
 # AI Operations Copilot
 
 **Agentic AI for industrial asset monitoring** — ask plain-English questions about plant equipment; the system intelligently selects the right tools and returns clear, actionable recommendations.
